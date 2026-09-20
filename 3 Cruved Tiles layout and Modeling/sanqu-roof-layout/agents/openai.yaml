@@ -1,0 +1,4 @@
+interface:
+  display_name: "三曲瓦屋面排布"
+  short_description: "根据屋面图纸与指定发电区域生成排布、三维模型、效果图和容量及发电量估算"
+  default_prompt: "请使用 $sanqu-roof-layout，按我的屋面图纸和指定发电区域生成排布图、3D 模型、效果图、数量表和发电量估算。"

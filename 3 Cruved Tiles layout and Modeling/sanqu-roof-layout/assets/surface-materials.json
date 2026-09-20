@@ -1,0 +1,47 @@
+{
+  "Opaque matte black backsheet": {
+    "color": "#272a2b",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Matte black anodized aluminum": {
+    "color": "#303335",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Black polymer": {
+    "color": "#272a2b",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Matte black anodized aluminum.001": {
+    "color": "#303335",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Black polymer.001": {
+    "color": "#272a2b",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Matte curved front glass": {
+    "color": "#292c2e",
+    "roughness": 0.9,
+    "metalness": 0.02
+  },
+  "Grey-black photovoltaic cell": {
+    "color": "#252829",
+    "roughness": 0.86,
+    "metalness": 0.02
+  },
+  "Silver-grey photovoltaic solder ribbon": {
+    "color": "#656a6b",
+    "roughness": 0.8,
+    "metalness": 0.12
+  },
+  "accessory": {
+    "color": "#292c2e",
+    "roughness": 0.9,
+    "metalness": 0.02
+  }
+}
