@@ -1,0 +1,4 @@
+interface:
+  display_name: "美学光伏瓦Pro屋面排布"
+  short_description: "按坡面展开排布Pro光伏瓦，生成模型、效果图、容量与88%系统效率发电量"
+  default_prompt: "使用 $pro-roof-layout，依据屋面图纸和指定发电区域生成美学光伏瓦Pro排布图、Blender模型、效果图及装机容量，按88%系统效率估算发电量。"

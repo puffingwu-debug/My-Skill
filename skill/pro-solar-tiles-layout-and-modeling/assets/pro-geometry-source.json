@@ -1,0 +1,22 @@
+{
+  "product": "Almaden Pro BIAC14B-70",
+  "power_w": 70,
+  "tile_mm": [1240, 390, 6.2],
+  "effective_pitch_mm": [1220, 340],
+  "half_companion_mm": [630, 390, 6.2],
+  "generating_tile_cuttable": false,
+  "companion_stock_types": ["full", "half"],
+  "companion_cuttable": true,
+  "minimum_slope_rule": "> 12 degrees",
+  "top_seals": {"count": 2, "base_width_mm": 5, "height_mm": 2.5},
+  "right_pad_width_mm": 20,
+  "pv_holes_and_clips": 4,
+  "clip_asset": "approved-wind-clip.blend",
+  "clip_source": "User-approved standalone wind-clip Blender asset from the Pro installation tutorial, confirmed 2026-09-11",
+  "clip_status": "Shape approved. 65.5 mm length, 16 mm width, 1.5 mm thickness, 5.5 mm bore and all hole positions remain photo-proportion estimates rather than manufacturing dimensions.",
+  "lap_geometry_source": "The corrected Pro installation tutorial build-roof.py: local sheet shear and installed clip flex reused; no cumulative row rise.",
+  "limitations": [
+    "Local clip flex, compressed seal regions and cover gaps are illustrative, not measured mechanical behaviour.",
+    "This renderer does not certify structural capacity, watertightness, electrical wiring or accessory manufacturing dimensions."
+  ]
+}

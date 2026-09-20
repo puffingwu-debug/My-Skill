@@ -1,0 +1,73 @@
+{
+  "project_name": "Pro 4×7 合成回归样例（非实际项目）",
+  "units": "m",
+  "geometry_source": "程序合成尺寸，验证此前用户确认的整/半错缝规则",
+  "power_w": 70,
+  "lateral_pitch_m": 1.22,
+  "course_pitch_m": 0.34,
+  "faces": [
+    {
+      "id": "S1",
+      "name": "合成南坡",
+      "coordinate_space": "developed",
+      "origin": [
+        0,
+        0,
+        3
+      ],
+      "tilt_deg": 20,
+      "azimuth_deg": 180,
+      "boundary": [
+        [
+          0,
+          0
+        ],
+        [
+          4.9,
+          0
+        ],
+        [
+          4.9,
+          2.43
+        ],
+        [
+          0,
+          2.43
+        ]
+      ],
+      "pv_regions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            4.9,
+            0
+          ],
+          [
+            4.9,
+            2.43
+          ],
+          [
+            0,
+            2.43
+          ]
+        ]
+      ],
+      "grid_origin": [
+        0,
+        0
+      ],
+      "obstacles": []
+    }
+  ],
+  "edges": [],
+  "energy": {
+    "method": "none",
+    "system_efficiency": 0.88
+  },
+  "assumptions": [
+    "仅用于技能回归测试，地点、几何不代表实际建筑。"
+  ]
+}
