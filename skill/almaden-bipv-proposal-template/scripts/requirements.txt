@@ -1,0 +1,5 @@
+# 本技能不需要单独装环境：用 load_workspace_dependencies 返回的 Python 即可，
+# 它已包含以下依赖。此处仅作声明，便于在别的环境里复现。
+python-pptx>=1.0.0
+Pillow>=10.0.0
+lxml>=5.0.0
