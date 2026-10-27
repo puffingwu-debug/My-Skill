@@ -1,0 +1,4 @@
+interface:
+  display_name: "QQ 音乐解密与 MP3 转换"
+  short_description: "在本机解密 QQ 音乐 musicex 文件，保留原件并校验 MP3 或无损输出"
+  default_prompt: "使用 $qqmusic-decrypt 处理我指定的 QQ 音乐加密歌曲，转换成 MP3 并验证音频完整性。"
