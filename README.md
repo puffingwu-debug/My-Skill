@@ -1,4 +1,8 @@
 # My-Skill
+
+## 内容导航
+
+[分类入口与逐文件清单](docs/REPOSITORY-INDEX.md) · [机器可读清单](docs/FILES.json)
 Store my custom skills
 
 ## Skills

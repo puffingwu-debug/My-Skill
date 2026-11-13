@@ -1,0 +1,792 @@
+{
+  "repository": "puffingwu-debug/My-Skill",
+  "visibility": "public",
+  "category": "可复用 Skill 与模板",
+  "source_commit": "3f0698c157f779349f7aaf616cac161a38beed44",
+  "files": [
+    {
+      "path": "3 Cruved Tiles layout and Modeling/.gitignore",
+      "organized_path": "3 Cruved Tiles layout and Modeling/.gitignore",
+      "category": "版本管理与配置",
+      "bytes": 49,
+      "blob_sha": "b2c05ba738397d662d58880fd1d1c54d46c9b429",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/README.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/README.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 3382,
+      "blob_sha": "3b2593d511b042325338c382880631452f16a513",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout.zip",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout.zip",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 10814048,
+      "blob_sha": "c121a0a23b28e7480dd6661402141ab52040cb14",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/SKILL.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/SKILL.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 5395,
+      "blob_sha": "a3461c7808948f1e5376ecbc136d0993e9418ce9",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/agents/openai.yaml",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/agents/openai.yaml",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 346,
+      "blob_sha": "728d9c6751f1e719daf928ff09aa38bb21aa5564",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/241018配瓦(高分子复合材料)报价.pdf",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/241018配瓦(高分子复合材料)报价.pdf",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 280861,
+      "blob_sha": "a2f6af28015c00c3cb185714bb1911ac5452e241",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/Almaden 曲面光伏瓦施工指导书-中文版V2.pdf",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/Almaden 曲面光伏瓦施工指导书-中文版V2.pdf",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 1694454,
+      "blob_sha": "c7d62471b0942d1dedfd20d8952d7ed3b22fbe25",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/三曲汉瓦安装说明书(美居屋建材）.pdf",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/三曲汉瓦安装说明书(美居屋建材）.pdf",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 6183814,
+      "blob_sha": "2707592144c1512b9766e8697771e127e99c8913",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/曲面瓦规格书241206.pdf",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/documents/曲面瓦规格书241206.pdf",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 1449095,
+      "blob_sha": "8a493a4b83eaa21a464afdf41cc4d8d1ec081182",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/logo.png",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/logo.png",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 1050336,
+      "blob_sha": "4f096dcdd34d5b4c3b7080932c97bf32ea121fa0",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/ridge-geometry.json",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/ridge-geometry.json",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 1446789,
+      "blob_sha": "fd24c10c77c002989caa69ff1dfd8dfd000cab9c",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/surface-materials.json",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/surface-materials.json",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 956,
+      "blob_sha": "493a68368375ed8d306267f0188af33c7fe5ace4",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/tile-geometry.json",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/tile-geometry.json",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 3296864,
+      "blob_sha": "13fc4459bd94ea7c998ae0137405898fa779e6d9",
+      "content_read": false
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/windclip.json",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/assets/windclip.json",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 38336,
+      "blob_sha": "80c773deb258239c06dd8c99b73331a8cbafa47f",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/drawing-input.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/drawing-input.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 6153,
+      "blob_sha": "ced9dc1ee7e70a7f69e4316fe9678b0b67941c12",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/energy-method.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/energy-method.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 8444,
+      "blob_sha": "f95799a2dce0a12f7b2c9762aa2e32f3e6051ab7",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/example-project.json",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/example-project.json",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 3705,
+      "blob_sha": "228563daaa983836353f24d477c265a154585c1b",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/input-schema.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/input-schema.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 3968,
+      "blob_sha": "0612b5970730ccc24a5f23c90999cfc2f0707e54",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/product-rules.md",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/references/product-rules.md",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 3980,
+      "blob_sha": "175f5fc8eb1d27ebf5f59c91bc29d6806102fabb",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/deliverables.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/deliverables.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 18805,
+      "blob_sha": "64cadd966dd3e27d61ab6c898e02e340ca54aaab",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/estimate_energy.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/estimate_energy.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 17288,
+      "blob_sha": "3fc3bd606eb1f85a39bcf07f71fd681de13de8ec",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/inspect_drawing.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/inspect_drawing.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 14626,
+      "blob_sha": "78b8e1d0f304225d36eedfdadba36cfc969a11cb",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/layout_engine.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/layout_engine.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 12261,
+      "blob_sha": "e25ae3d3fe085597c5722ac21f38df6eb679c360",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/render_blender.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/render_blender.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 27018,
+      "blob_sha": "27de436240ecdf9edb27803485637a089c6cc0cb",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/requirements.txt",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/requirements.txt",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 42,
+      "blob_sha": "db24678400ee179d277f1392879f39730327d1df",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/run_project.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/run_project.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 2828,
+      "blob_sha": "219aec08b22c8786b8c6c94ccbb2620103e4f523",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/setup.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/setup.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 500,
+      "blob_sha": "d7003c2927991cf6b372376231a5f874ff9bec68",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/test_energy.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/test_energy.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 11111,
+      "blob_sha": "b3d74be78b95b1bd9bc050c55001211bc0b7309a",
+      "content_read": true
+    },
+    {
+      "path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/test_layout.py",
+      "organized_path": "3 Cruved Tiles layout and Modeling/sanqu-roof-layout/scripts/test_layout.py",
+      "category": "屋面排布 / 三曲瓦",
+      "bytes": 5312,
+      "blob_sha": "2e800acae8419070e658943e74417b409dec3207",
+      "content_read": true
+    },
+    {
+      "path": "README.md",
+      "organized_path": "README.md",
+      "category": "仓库说明",
+      "bytes": 1141,
+      "blob_sha": "a5c5d39f1518e838bfb2a203bebd1a6a127a4385",
+      "content_read": true
+    },
+    {
+      "path": "skill/.gitkeep",
+      "organized_path": "skill/.gitkeep",
+      "category": "版本管理与配置",
+      "bytes": 1,
+      "blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/.gitignore",
+      "organized_path": "skill/almaden-bipv-proposal-template/.gitignore",
+      "category": "版本管理与配置",
+      "bytes": 33,
+      "blob_sha": "4a5bb25f7096ae714e1567277512b7b2c15ce857",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/SKILL.md",
+      "organized_path": "skill/almaden-bipv-proposal-template/SKILL.md",
+      "category": "建议书模板",
+      "bytes": 7771,
+      "blob_sha": "104dc477e73f0dc2b180a3a8f25c7c1e8b0ec669",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/agents/openai.yaml",
+      "organized_path": "skill/almaden-bipv-proposal-template/agents/openai.yaml",
+      "category": "建议书模板",
+      "bytes": 422,
+      "blob_sha": "79db3951366df073d75039a5a2e58c5154d911cb",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/assets/logo_dark.png",
+      "organized_path": "skill/almaden-bipv-proposal-template/assets/logo_dark.png",
+      "category": "建议书模板",
+      "bytes": 225266,
+      "blob_sha": "e536df93fcd85029fb56c57bf6ad25a48cc1887a",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/assets/logo_light.png",
+      "organized_path": "skill/almaden-bipv-proposal-template/assets/logo_light.png",
+      "category": "建议书模板",
+      "bytes": 223049,
+      "blob_sha": "d5dc18c194e35658d4a80e9f8c85dc68ab7c596d",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/chart_donut.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/chart_donut.jpg",
+      "category": "建议书模板",
+      "bytes": 23757,
+      "blob_sha": "3808d09813586fc788a6af8d244020bd680a4a99",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/chart_monthly.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/chart_monthly.jpg",
+      "category": "建议书模板",
+      "bytes": 54716,
+      "blob_sha": "148786d2821ac80255d83fa305cb7a65218d55fb",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/closing_bg.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/closing_bg.jpg",
+      "category": "建议书模板",
+      "bytes": 43893,
+      "blob_sha": "f88f3ac21335189190e8654d44e85a03622e1fca",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/cover_bg.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/cover_bg.jpg",
+      "category": "建议书模板",
+      "bytes": 42227,
+      "blob_sha": "8eaaf6ba8c9ac294364e5172b185aca1a927c6cf",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_batten.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_batten.jpg",
+      "category": "建议书模板",
+      "bytes": 267757,
+      "blob_sha": "0d095928116ff2a169af18242b886ae0a776ea2a",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_counterbatten.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_counterbatten.jpg",
+      "category": "建议书模板",
+      "bytes": 167763,
+      "blob_sha": "53ff7ba13d9114cae3c8db785d765fbd0ce9def7",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_flashing.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_flashing.jpg",
+      "category": "建议书模板",
+      "bytes": 97407,
+      "blob_sha": "1eb0889d79a7c45afaa4bcf8ccd981b4ea6513d0",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_gutter.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_gutter.jpg",
+      "category": "建议书模板",
+      "bytes": 54336,
+      "blob_sha": "9abab521838ed6eee335fac36783202117668532",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_pvtile.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_pvtile.jpg",
+      "category": "建议书模板",
+      "bytes": 246738,
+      "blob_sha": "2b831b2b734ecdd0d10747477f90e65c4a3e26cc",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/inst_ridge.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/inst_ridge.jpg",
+      "category": "建议书模板",
+      "bytes": 116221,
+      "blob_sha": "172c59f1a0de46a95dd447176416c8683fa543d2",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/jclip_detail.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/jclip_detail.jpg",
+      "category": "建议书模板",
+      "bytes": 105347,
+      "blob_sha": "3e3518697050b359bd2333c39ddf568c4f8db5a7",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/jclip_lower.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/jclip_lower.jpg",
+      "category": "建议书模板",
+      "bytes": 52703,
+      "blob_sha": "63360a28916751e5def55ef24358183aafa18932",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/plan_total.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/plan_total.jpg",
+      "category": "建议书模板",
+      "bytes": 218635,
+      "blob_sha": "15db62064d94fcb1e5344617c7d43338846cd32e",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/slope_A.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/slope_A.jpg",
+      "category": "建议书模板",
+      "bytes": 135904,
+      "blob_sha": "b32214388740ce42bdfde7afba87d7309e7d22e3",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/slope_B.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/slope_B.jpg",
+      "category": "建议书模板",
+      "bytes": 137355,
+      "blob_sha": "d83f48afe5f212145788f8f23ebe50e6f7404090",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/spec_p1.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/spec_p1.jpg",
+      "category": "建议书模板",
+      "bytes": 302334,
+      "blob_sha": "dac43f462681bfa11e0796d07805b79f5d70c50f",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/video_poster.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/video_poster.jpg",
+      "category": "建议书模板",
+      "bytes": 51308,
+      "blob_sha": "d573e855fae5b5f7ef726298574931b59641b064",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/屋面俯视.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/屋面俯视.jpg",
+      "category": "建议书模板",
+      "bytes": 62433,
+      "blob_sha": "b59e35540bc8f681694464e6dcd8c6386bf98a01",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/左侧立面_女儿墙随坡.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/左侧立面_女儿墙随坡.jpg",
+      "category": "建议书模板",
+      "bytes": 25144,
+      "blob_sha": "39e027937d89280c6c0b569654b8873206cf4d2a",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/整体轴测_图上侧.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/整体轴测_图上侧.jpg",
+      "category": "建议书模板",
+      "bytes": 60780,
+      "blob_sha": "58f6548dde349642e45a54efd46fa7eb14d581cb",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/整体轴测_图下侧.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/整体轴测_图下侧.jpg",
+      "category": "建议书模板",
+      "bytes": 72012,
+      "blob_sha": "c029fcd8936719856a732fa173989e2efa650e5a",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/标高与范围核对.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/标高与范围核对.jpg",
+      "category": "建议书模板",
+      "bytes": 156373,
+      "blob_sha": "1591cf086922b385c230137e11d2306fc0b788de",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/images/瓦面与脊瓦近景.jpg",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/images/瓦面与脊瓦近景.jpg",
+      "category": "建议书模板",
+      "bytes": 120745,
+      "blob_sha": "d60fd1c7df11c14d64812bef5970b8e32babea3b",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/media/demo.mp4",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/media/demo.mp4",
+      "category": "建议书模板",
+      "bytes": 103104,
+      "blob_sha": "1f7097352a4f2514d5ea0edc39f08224dc86363c",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/东江阴变电站.json",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/东江阴变电站.json",
+      "category": "建议书模板",
+      "bytes": 50626,
+      "blob_sha": "1c7e1da1c5d9b0573d262ac3386232b8f78f9bb6",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/examples/示例输出_东江阴变电站.pptx",
+      "organized_path": "skill/almaden-bipv-proposal-template/examples/示例输出_东江阴变电站.pptx",
+      "category": "建议书模板",
+      "bytes": 2656366,
+      "blob_sha": "a286d7262cbe3be16d141f1663c68918298be9d1",
+      "content_read": false
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/references/design-system.md",
+      "organized_path": "skill/almaden-bipv-proposal-template/references/design-system.md",
+      "category": "建议书模板",
+      "bytes": 5152,
+      "blob_sha": "889c1641ac9df6570ecfd47615497a12f7903ef5",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/references/project-schema.md",
+      "organized_path": "skill/almaden-bipv-proposal-template/references/project-schema.md",
+      "category": "建议书模板",
+      "bytes": 5670,
+      "blob_sha": "bfd70533d901eb9a872594f684969acc9a430b8a",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/references/slide-archetypes.md",
+      "organized_path": "skill/almaden-bipv-proposal-template/references/slide-archetypes.md",
+      "category": "建议书模板",
+      "bytes": 10486,
+      "blob_sha": "59d6101a23948f9d531a4633d4d27c7ca0836822",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/scripts/build_proposal.py",
+      "organized_path": "skill/almaden-bipv-proposal-template/scripts/build_proposal.py",
+      "category": "建议书模板",
+      "bytes": 32623,
+      "blob_sha": "bdad9c17ff2c5c7d0c729d6e579b40d3d702a09e",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/scripts/check_deck.py",
+      "organized_path": "skill/almaden-bipv-proposal-template/scripts/check_deck.py",
+      "category": "建议书模板",
+      "bytes": 12149,
+      "blob_sha": "64cd74693fee0e3ce308fa84d1caf6ef4831cf54",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/scripts/deck_kit.py",
+      "organized_path": "skill/almaden-bipv-proposal-template/scripts/deck_kit.py",
+      "category": "建议书模板",
+      "bytes": 19526,
+      "blob_sha": "eb72f4dc41561aa3536481390a8e08e45a90a7b7",
+      "content_read": true
+    },
+    {
+      "path": "skill/almaden-bipv-proposal-template/scripts/requirements.txt",
+      "organized_path": "skill/almaden-bipv-proposal-template/scripts/requirements.txt",
+      "category": "建议书模板",
+      "bytes": 227,
+      "blob_sha": "24013b027a1ebf9037f6d89d713130357409f976",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/SKILL.md",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/SKILL.md",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 5711,
+      "blob_sha": "de08ea7de6d72c1a62db8db153ea987453b9d3b1",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/agents/openai.yaml",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/agents/openai.yaml",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 381,
+      "blob_sha": "ddc49fcd920799469454d40417437a927dcb08c7",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/assets/approved-wind-clip.blend",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/assets/approved-wind-clip.blend",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 126209,
+      "blob_sha": "7f37ad987507a9e2dde56279733394e0d9507e64",
+      "content_read": false
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/assets/documents/Pro70W规格书.pdf",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/assets/documents/Pro70W规格书.pdf",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 1790612,
+      "blob_sha": "dfe522b82704f8393a2289df25a4ac4dcd72277e",
+      "content_read": false
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/assets/documents/Pro屋面安装说明书.pdf",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/assets/documents/Pro屋面安装说明书.pdf",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 2638122,
+      "blob_sha": "648e92017eafaf3e169387b2343c98fb6d85b7f5",
+      "content_read": false
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/assets/logo.png",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/assets/logo.png",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 1050336,
+      "blob_sha": "4f096dcdd34d5b4c3b7080932c97bf32ea121fa0",
+      "content_read": false
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/assets/pro-geometry-source.json",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/assets/pro-geometry-source.json",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 1229,
+      "blob_sha": "2eaece0370b3a30e908f4849c7d653d16ce58b23",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/references/drawing-input.md",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/references/drawing-input.md",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 5083,
+      "blob_sha": "5d03004d6e6a16773e5a8eda948d67d7586276ed",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/references/energy-method.md",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/references/energy-method.md",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 8636,
+      "blob_sha": "540f32a2b1023955c758f5eff26d96d35b2d3044",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/references/example-project.json",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/references/example-project.json",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 1234,
+      "blob_sha": "b1b50943d3be81e042771a735f67c45bad49f26a",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/references/input-schema.md",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/references/input-schema.md",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 3874,
+      "blob_sha": "b55ede22b55fa0beec257c98d3305506bd375e7c",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/references/product-rules.md",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/references/product-rules.md",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 2863,
+      "blob_sha": "97309135a83572b0f58692530054068efb98c43e",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/deliverables.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/deliverables.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 22672,
+      "blob_sha": "fda9cd78169be1628ea6cdbaff45075ae0845a28",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/estimate_energy.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/estimate_energy.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 17929,
+      "blob_sha": "c4eea0d3b8675106305082fc60dc809c441fd465",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/inspect_drawing.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/inspect_drawing.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 14624,
+      "blob_sha": "434291b3fc0af1087b0030fb5b9448b3acb506c1",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/layout_engine.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/layout_engine.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 13404,
+      "blob_sha": "0f81ba0b19d6718370073627eb856d8a6fb234d7",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/render_blender.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/render_blender.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 29494,
+      "blob_sha": "4d12fb4fbdc44f8f3d30d0700061d8d69f0a1b1c",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/requirements.txt",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/requirements.txt",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 42,
+      "blob_sha": "db24678400ee179d277f1392879f39730327d1df",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/run_project.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/run_project.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 3627,
+      "blob_sha": "b9ec7e00d8104b5010c36c1bebfb65b62921f6a3",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/setup.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/setup.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 500,
+      "blob_sha": "d7003c2927991cf6b372376231a5f874ff9bec68",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/test_energy.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/test_energy.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 12103,
+      "blob_sha": "2bb8d1f29ea13ce183da2d06315430192092cd19",
+      "content_read": true
+    },
+    {
+      "path": "skill/pro-solar-tiles-layout-and-modeling/scripts/test_layout.py",
+      "organized_path": "skill/pro-solar-tiles-layout-and-modeling/scripts/test_layout.py",
+      "category": "屋面排布 / Pro 平瓦",
+      "bytes": 4813,
+      "blob_sha": "c1b6b079e00fde73576cef41ad603dc0e551ba7a",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/LICENSE",
+      "organized_path": "skill/qqmusic-decrypt/LICENSE",
+      "category": "许可",
+      "bytes": 34233,
+      "blob_sha": "292b33dcded788c668787bf2719b39ac7b6fec62",
+      "content_read": false
+    },
+    {
+      "path": "skill/qqmusic-decrypt/SKILL.md",
+      "organized_path": "skill/qqmusic-decrypt/SKILL.md",
+      "category": "音频处理",
+      "bytes": 3554,
+      "blob_sha": "3599e569ceaecffecd1e468a0fcf871b05326401",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/agents/openai.yaml",
+      "organized_path": "skill/qqmusic-decrypt/agents/openai.yaml",
+      "category": "音频处理",
+      "bytes": 296,
+      "blob_sha": "5cd440338e98307f752310f69f664b0edc991e5f",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/references/implementation.md",
+      "organized_path": "skill/qqmusic-decrypt/references/implementation.md",
+      "category": "音频处理",
+      "bytes": 2518,
+      "blob_sha": "d37c4d1b1f1bdcc7f302f7c15749ecec73efeaaa",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/scripts/qmc_crypto.py",
+      "organized_path": "skill/qqmusic-decrypt/scripts/qmc_crypto.py",
+      "category": "音频处理",
+      "bytes": 3343,
+      "blob_sha": "6b10e4fb8e1bd7d44ba41abd9769f10fc4dae3f5",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/scripts/qqmusic_decrypt.py",
+      "organized_path": "skill/qqmusic-decrypt/scripts/qqmusic_decrypt.py",
+      "category": "音频处理",
+      "bytes": 10552,
+      "blob_sha": "2c772b2c84351e41e6ed3d4fd301a466dd5e4ce3",
+      "content_read": true
+    },
+    {
+      "path": "skill/qqmusic-decrypt/scripts/test_qqmusic_decrypt.py",
+      "organized_path": "skill/qqmusic-decrypt/scripts/test_qqmusic_decrypt.py",
+      "category": "音频处理",
+      "bytes": 7588,
+      "blob_sha": "fc48157018937b06b76314733febfca99fc6a95a",
+      "content_read": true
+    }
+  ]
+}
